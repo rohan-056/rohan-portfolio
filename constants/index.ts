@@ -43,7 +43,7 @@ export const FULLSTACK_SKILL = [
   { skill_name: "Go", image: "go.png", width: 60, height: 60 },
 ] as const;
 
-export const OTHER_SKILL = [] as const;
+export const OTHER_SKILL = [];
 
 export const PROJECTS = [
   {
