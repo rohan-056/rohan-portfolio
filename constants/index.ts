@@ -4,6 +4,13 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
+type SkillType = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
+
 export const SKILL_DATA = [
   { skill_name: "HTML", image: "html.png", width: 80, height: 80 },
   { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
@@ -43,7 +50,7 @@ export const FULLSTACK_SKILL = [
   { skill_name: "Go", image: "go.png", width: 60, height: 60 },
 ] as const;
 
-export const OTHER_SKILL = [];
+export const OTHER_SKILL: SkillType[] = [];
 
 export const PROJECTS = [
   {
