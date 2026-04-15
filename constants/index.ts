@@ -49,21 +49,21 @@ export const PROJECTS = [
     description:
       "A full-stack AI-powered health platform with 8+ modules including AI symptom analysis, fitness tracking, and chatbot support. Real-time, data-driven features optimized for performance. (Mar 2026 – Apr 2026)",
     image: "/projects/project-1.png",
-    link: "https://github.com/rohan-056",
+    link: "Curiaai.onrender.com ",
   },
   {
     title: "Strangers Things Website",
     description:
       "Responsive Stranger Things themed website using HTML, CSS, JavaScript, React, and Vite. Features reusable React components with interactive UI, animations, and fast loading. (Dec 2025 – Jan 2026)",
     image: "/projects/project-2.png",
-    link: "https://github.com/rohan-056",
+    link: "https://st-website.vercel.app",
   },
   {
     title: "Packman Game",
     description:
       "Browser-based Pac-Man clone built with HTML, CSS, and JavaScript. Implements player controls, ghost AI behavior, collision detection, and full game state management. (Jan 2025 – Feb 2025)",
     image: "/projects/project-3.png",
-    link: "https://github.com/rohan-056",
+    link: "https://pacman-multiplayer-nine.vercel.app",
   },
 ];
 
