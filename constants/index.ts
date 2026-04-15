@@ -15,7 +15,6 @@ export const SKILL_DATA: SkillType[] = [
   { skill_name: "HTML", image: "html.png", width: 80, height: 80 },
   { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
   { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
-  { skill_name: "TypeScript", image: "ts.png", width: 80, height: 80 },
   { skill_name: "Python", image: "python.png", width: 75, height: 75 },
   { skill_name: "React", image: "react.png", width: 80, height: 80 },
   { skill_name: "Node.js", image: "node.png", width: 80, height: 80 },
@@ -33,8 +32,6 @@ export const FRONTEND_SKILL: SkillType[] = [
   { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
   { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
   { skill_name: "React", image: "react.png", width: 80, height: 80 },
-  { skill_name: "Next.js", image: "next.png", width: 80, height: 80 },
-  { skill_name: "Tailwind CSS", image: "tailwind.png", width: 80, height: 80 },
 ];
 
 export const BACKEND_SKILL: SkillType[] = [
@@ -42,12 +39,6 @@ export const BACKEND_SKILL: SkillType[] = [
   { skill_name: "Node.js", image: "node.png", width: 80, height: 80 },
   { skill_name: "MongoDB", image: "mongodb.png", width: 40, height: 40 },
   { skill_name: "MySQL", image: "mysql.png", width: 70, height: 70 },
-  { skill_name: "PostgreSQL", image: "postgresql.png", width: 70, height: 70 },
-];
-
-export const FULLSTACK_SKILL = [
-  { skill_name: "TypeScript", image: "ts.png", width: 70, height: 70 },
-  { skill_name: "Go", image: "go.png", width: 60, height: 60 },
 ];
 
 export const OTHER_SKILL: SkillType[] = [];
