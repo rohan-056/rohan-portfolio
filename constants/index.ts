@@ -11,7 +11,7 @@ type SkillType = {
   height: number;
 };
 
-export const SKILL_DATA = [
+export const SKILL_DATA: SkillType[] = [
   { skill_name: "HTML", image: "html.png", width: 80, height: 80 },
   { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
   { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
@@ -21,34 +21,34 @@ export const SKILL_DATA = [
   { skill_name: "Node.js", image: "node.png", width: 80, height: 80 },
   { skill_name: "MongoDB", image: "mongodb.png", width: 40, height: 40 },
   { skill_name: "MySQL", image: "mysql.png", width: 70, height: 70 },
-] as const;
+];
 
 export const SOCIALS = [
   { name: "GitHub", icon: RxGithubLogo, link: "https://github.com/rohan-056" },
   { name: "LinkedIn", icon: RxLinkedinLogo, link: "https://www.linkedin.com/in/rohan-kumar-7a1468397" },
-] as const;
+];
 
-export const FRONTEND_SKILL = [
+export const FRONTEND_SKILL: SkillType[] = [
   { skill_name: "HTML", image: "html.png", width: 80, height: 80 },
   { skill_name: "CSS", image: "css.png", width: 80, height: 80 },
   { skill_name: "JavaScript", image: "js.png", width: 65, height: 65 },
   { skill_name: "React", image: "react.png", width: 80, height: 80 },
   { skill_name: "Next.js", image: "next.png", width: 80, height: 80 },
   { skill_name: "Tailwind CSS", image: "tailwind.png", width: 80, height: 80 },
-] as const;
+];
 
-export const BACKEND_SKILL = [
+export const BACKEND_SKILL: SkillType[] = [
   { skill_name: "Python", image: "python.png", width: 70, height: 70 },
   { skill_name: "Node.js", image: "node.png", width: 80, height: 80 },
   { skill_name: "MongoDB", image: "mongodb.png", width: 40, height: 40 },
   { skill_name: "MySQL", image: "mysql.png", width: 70, height: 70 },
   { skill_name: "PostgreSQL", image: "postgresql.png", width: 70, height: 70 },
-] as const;
+];
 
 export const FULLSTACK_SKILL = [
   { skill_name: "TypeScript", image: "ts.png", width: 70, height: 70 },
   { skill_name: "Go", image: "go.png", width: 60, height: 60 },
-] as const;
+];
 
 export const OTHER_SKILL: SkillType[] = [];
 
@@ -74,7 +74,7 @@ export const PROJECTS = [
     image: "/projects/project-3.png",
     link: "https://github.com/rohan-056",
   },
-] as const;
+];
 
 export const CERTIFICATES = [
   {
@@ -119,7 +119,7 @@ export const CERTIFICATES = [
     date: "Nov 2025",
     link: "#",
   },
-] as const;
+];
 
 export const FOOTER_DATA = [
   {
@@ -135,14 +135,14 @@ export const FOOTER_DATA = [
       },
     ],
   },
-] as const;
+];
 
 export const NAV_LINKS = [
   { title: "About me", link: "#about-me" },
   { title: "Skills", link: "#skills" },
   { title: "Projects", link: "#projects" },
   { title: "Certificates", link: "#certificates" },
-] as const;
+];
 
 export const LINKS = {
   sourceCode: "https://github.com/rohan-056",
