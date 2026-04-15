@@ -7,13 +7,12 @@ import * as THREE from "three";
 function Stars() {
   const ref = useRef<THREE.Points>(null!);
 
-  // Generate safe star positions (NO maath library)
   const positions = useMemo(() => {
     const count = 4000;
     const arr = new Float32Array(count * 3);
 
     for (let i = 0; i < count * 3; i++) {
-      arr[i] = (Math.random() - 0.5) * 800; // safe range
+      arr[i] = (Math.random() - 0.5) * 800;
     }
 
     return arr;
@@ -30,20 +29,23 @@ function Stars() {
     <points ref={ref}>
       <bufferGeometry>
         <bufferAttribute
-          attach="attributes-position"
-          array={positions}
-          count={positions.length / 3}
-          itemSize={3} args={[]}        />
+        attach="attributes-position"
+        args={[positions, 3]}
+        count={positions.length / 3}
+        itemSize={3}
+      />
       </bufferGeometry>
       <pointsMaterial color="#ffffff" size={1.2} />
     </points>
   );
 }
 
-export const StarsCanvas = () => (
-  <div className="w-full h-full fixed inset-0 -z-10">
-    <Canvas camera={{ position: [0, 0, 400] }}>
-      <Stars />
-    </Canvas>
-  </div>
-);
+export const StarsCanvas = () => {
+  return (
+    <div className="w-full h-full fixed inset-0 -z-10">
+      <Canvas camera={{ position: [0, 0, 400] }}>
+        <Stars />
+      </Canvas>
+    </div>
+  );
+};
