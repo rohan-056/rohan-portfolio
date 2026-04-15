@@ -138,3 +138,5 @@ export const NAV_LINKS = [
 export const LINKS = {
   sourceCode: "https://github.com/rohan-056",
 };
+
+export const FULLSTACK_SKILL: SkillType[] = [];

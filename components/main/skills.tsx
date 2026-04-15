@@ -56,7 +56,7 @@ export const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {FULLSTACK_SKILL.map((skill, i) => (
+        {FULLSTACK_SKILL.map((skill,i) => (
           <SkillDataProvider
             key={skill.skill_name}
             src={skill.image}
