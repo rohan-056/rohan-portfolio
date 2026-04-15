@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "A full-stack AI-powered health platform with 8+ modules including AI symptom analysis, fitness tracking, and chatbot support. Real-time, data-driven features optimized for performance. (Mar 2026 – Apr 2026)",
     image: "/projects/project-1.png",
-    link: "Curiaai.onrender.com ",
+    link: "https://curiaai.onrender.com/login",
   },
   {
     title: "Strangers Things Website",
